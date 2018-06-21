@@ -7,14 +7,14 @@
     <body>
         <table cellspacing=0 cellpadding=0 width="100%" align=center border=0>
             <tr height=28>
-                <td background=./img/title_bg1.jpg>当前位置: </td></tr>
+                <td background=/Application/Admin/Public/img/title_bg1.jpg>当前位置: </td></tr>
             <tr>
                 <td bgcolor=#b1ceef height=1></td></tr>
             <tr height=20>
-                <td background=./img/shadow_bg.jpg></td></tr></table>
+                <td background=/Application/Admin/Public/img/shadow_bg.jpg></td></tr></table>
         <table cellspacing=0 cellpadding=0 width="90%" align=center border=0>
             <tr height=100>
-                <td align=middle width=100><img height=100 src="./img/admin_p.gif" 
+                <td align=middle width=100><img height=100 src="/Application/Admin/Public/img/admin_p.gif" 
                                                 width=90></td>
                 <td width=60>&nbsp;</td>
                 <td>
@@ -33,7 +33,7 @@
                 <td></td></tr>
             <tr height=22>
                 <td style="padding-left: 20px; font-weight: bold; color: #ffffff" 
-                    align=middle background=./img/title_bg2.jpg>您的相关信息</td></tr>
+                    align=middle background=/Application/Admin/Public/img/title_bg2.jpg>您的相关信息</td></tr>
             <tr bgcolor=#ecf4fc height=12>
                 <td></td></tr>
             <tr height=20>
