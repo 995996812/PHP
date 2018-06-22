@@ -5,6 +5,25 @@
 	<title>Document</title>
 </head>
 <body>
-	这是Goods控制器的show方法 <br>
+	您的成绩是: {$score} <br>
+
+	<if condition='$score egt 90'>
+		超级棒
+	<elseif condition='score egt 80'/>
+		很棒
+	<elseif condition='score egt 70'/>
+		棒
+	<elseif condition='score egt 60'/>
+		一般般吧
+	<else/>
+		差劲耶
+	</if>
+
+
+	<!-- 循环 -->
+	<!-- 从1开始  到100结束  每次间隔10  name为变量名称-->
+	<for start='1' end='100' step='10' name='a'> 
+		第 {$a} 次 <br>
+	</for>
 </body>
 </html>

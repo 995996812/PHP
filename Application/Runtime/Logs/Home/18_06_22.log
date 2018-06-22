@@ -224,3 +224,9 @@ ERR: 非法操作:idnex
 [ 2018-06-22T14:30:16+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
 ERR: 非法操作:aa
 
+[ 2018-06-22T15:01:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/show
+ERR: 模板不存在:./Application/Home/View/Goods/show.html.html
+
+[ 2018-06-22T15:01:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/show
+ERR: 模板不存在:./Application/Home/View/Goods/show.html.html
+
