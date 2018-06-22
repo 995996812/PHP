@@ -7,9 +7,13 @@ use Think\Controller;
  */
 class GoodsController extends Controller
 {
-	public function zhanshi()
+	public function showlist()
 	{
-		# code...
+
+		$list=M('goods')->select();
+		
+		$this->assign('list',$list);
+
 		$this->display();
 	}
 
