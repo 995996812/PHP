@@ -13,6 +13,11 @@ class IndexController extends Controller {
     	echo "当前控制器".__CONTROLLER__.'<br>';
     	echo "当前方法".__ACTION__.'<br>';
     } 
+
+    public function _empty() //调用不存在函数时系统会自动调用这个空函数
+    {
+    	echo "非法操作....";
+    }
 }
  
 

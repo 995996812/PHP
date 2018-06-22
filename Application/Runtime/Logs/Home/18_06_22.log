@@ -1,0 +1,226 @@
+[ 2018-06-22T11:25:04+08:00 ] 127.0.0.1 /index.php/Home/Index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-06-22T11:25:14+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-06-22T11:27:49+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-06-22T11:27:50+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-06-22T11:28:01+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-06-22T11:28:02+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-06-22T11:28:08+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [2] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/admin/Sites/PHP/Application/Home/Controller/GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-06-22T14:29:17+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:23+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:23+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:23+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:24+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:26+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:26+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:26+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:27+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:31+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:31+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:32+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:32+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:32+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:32+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:49+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:49+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:49+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:49+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:50+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:51+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:51+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
+[ 2018-06-22T14:29:57+08:00 ] 127.0.0.1 /index.php/Home/Index/idnex
+ERR: 非法操作:idnex
+
+[ 2018-06-22T14:30:01+08:00 ] 127.0.0.1 /index.php/Home/Index/idnex
+ERR: 非法操作:idnex
+
+[ 2018-06-22T14:30:01+08:00 ] 127.0.0.1 /index.php/Home/Index/idnex
+ERR: 非法操作:idnex
+
+[ 2018-06-22T14:30:04+08:00 ] 127.0.0.1 /index.php/Home/Index/idnex
+ERR: 非法操作:idnex
+
+[ 2018-06-22T14:30:16+08:00 ] 127.0.0.1 /index.php/Home/Index/aa
+ERR: 非法操作:aa
+
