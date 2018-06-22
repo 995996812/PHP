@@ -101,3 +101,125 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
 ERR: 非法操作:css
 
+[ 2018-06-22T15:57:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 1146:Table 'db1.tab_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tab_goods`
+
+[ 2018-06-22T15:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 1146:Table 'db1.tab_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tab_goods`
+
+[ 2018-06-22T16:28:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:28:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:36:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:36:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:36:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 模板不存在:./Application/Admin/View/Goods/showlist.html
+
+[ 2018-06-22T16:36:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 非法操作:showlist
+
+[ 2018-06-22T16:36:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 非法操作:showlist
+
+[ 2018-06-22T16:37:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:38:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:38:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 非法操作:showlist
+
+[ 2018-06-22T16:38:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index
+ERR: 非法操作:index
+
+[ 2018-06-22T16:39:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:39:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:39:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:42:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-22T16:42:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+

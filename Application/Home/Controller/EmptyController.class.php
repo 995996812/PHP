@@ -14,6 +14,4 @@ class EmptyController extends Controller
 	}
 }
 
-
-
  ?>
