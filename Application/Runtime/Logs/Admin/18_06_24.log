@@ -142,3 +142,103 @@ ERR: 非法操作:css
 [ 2018-06-24T16:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
 ERR: 非法操作:css
 
+[ 2018-06-24T16:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:30:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:30:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:36:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:36:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:36:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) AS tp_max FROM `tab_goods` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT MAX(*) AS tp_max FROM `tab_goods` LIMIT 1  
+
+[ 2018-06-24T16:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:36:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: Call to a member function count() on array
+
+[ 2018-06-24T16:37:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:37:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:46:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:46:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:46:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2018-06-24T16:46:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:46:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:52:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:52:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:55:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:55:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:56:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T16:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T17:07:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T17:07:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
