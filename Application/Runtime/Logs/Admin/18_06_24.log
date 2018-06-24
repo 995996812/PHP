@@ -1,0 +1,18 @@
+[ 2018-06-24T13:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T13:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-24T13:51:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 非法操作:test1
+
+[ 2018-06-24T13:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 非法操作:test1
+
+[ 2018-06-24T13:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 非法操作:test1
+
+[ 2018-06-24T13:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/test1
+ERR: 非法操作:test1
+
