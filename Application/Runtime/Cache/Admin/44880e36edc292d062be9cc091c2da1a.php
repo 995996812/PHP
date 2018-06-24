@@ -44,8 +44,9 @@
                         <td>创建时间</td>
                         <td align="center">操作</td>
                     </tr>
+                    <!-- key 为正序序号1, 2, 3-->
                     <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="product1">
-                        <td><?php echo ($vo["goods_id"]); ?></td>
+                        <td><?php echo ($i); ?></td>
                         <td><a href="#"><?php echo ($vo["goods_name"]); ?></a></td>
                         <td><?php echo ($vo["goods_number"]); ?></td>
                         <td><?php echo ($vo["goods_price"]); ?></td>
