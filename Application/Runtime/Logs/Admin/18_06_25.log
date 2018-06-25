@@ -1,0 +1,187 @@
+[ 2018-06-25T14:35:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:35:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:41:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:41:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:46:58+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:46:58+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:47:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:47:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:47:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:54:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:56:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/admin.php?c=goods&a=add
+ERR: 非法操作:admin.php
+
+[ 2018-06-25T14:57:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:57:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:59:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:59:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T14:59:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:11:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add
+ERR: 1146:Table 'db1.tab_catergory' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tab_catergory`
+
+[ 2018-06-25T15:12:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:12:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:12:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:12:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:12:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:17:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:17:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:17:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:17:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:20:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:20:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:20:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+
+[ 2018-06-25T15:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:20:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:25:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:26:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T15:39:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T16:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T16:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-25T16:15:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-25T16:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+

@@ -9,107 +9,86 @@ class GoodsController extends Controller
 {
 	public function showlist()
 	{
-		//1.查询一条数据
-		// $list=M('goods')->find();
-		// //2.主键查询(查询主键为2的) 这个查询select()括号中不需要带单引号或者双引号
-		// $list = M('goods')->select(2);
-		// //3.查询编号为2,3,4的记录 这个查询select()括号中需要带单引号或者双引号
-		// $list = M('goods')->select('2,3,4'); 
-		// // 4.where条件查询
-		// $list = M('goods')->where("goods_name like '%诺基亚%'")->select();
-		// $list = M('goods')->where("goods_name like '%诺基亚%' and goods_price >=1000")->select(); 
-		// // 5. limit查询 limit(5)从前开始取出5条数据 limit(2,5)从第二条开始取出5条数据
-		// $list = M('goods')->limit(2,5)->select();
-		// // 6. limit 和 where 查询
-		// $list = M('goods')->where("goods_name like '%诺基亚%'")->limit(1)->select();
-		// // 7.排序
-		// $list=M('goods')->order('goods_price desc')->select();
-		// // 8.查询指定字段
-		// $list = M('goods')->field('goods_name,goods_price')->select();
-		// // 9.分组查询 having
-		// $list = M('goods')->having('goods_price > 2000')->select();
-		// $list = M('goods')->group('goods_brand_id')->field('goods_brand_id,max(goods_price) m')->having('m>2000')->select();
-
-		// var_dump($list);
-		// // 10.普通查询,提取出数据库中的所有数据
-		// $list=M('goods')->select();
+	
+		$list=M('goods')->select();
 		
-		// $this->assign('list',$list);
-		// $this->display();
-		// 
-		// $this->dynamic();
-		// $this->test2();
-		// $this->changeData();
-		$this->querySteate();
-	}
-	/**
-	 * 动态查询
-	 * @return [type] [description]
-	 */
-	public function dynamic()
-	{
-		$list = M('goods')->getBygoods_id(1);
+		$this->assign('list',$list);
+		$this->display();
 
-		var_dump($list);
 	}
 	/**
-	 * 聚合函数
-	 * @return [type] [description]
+	 * @Author   Jess.Wang
+	 * @DateTime 2018-06-25
+	 * @describe 添加商品
+	 * @version  [version]
+	 * @return   [return]
 	 */
-	public function test2()
-	{
-		# code...
-		$list = M('goods');
-		echo $list->count().'<br>'; //数据总条数
-		echo $list->max('goods_price').'<br>'; //最大
-		echo $list->min('goods_price').'<br>'; //最小
-		echo $list->avg('goods_price').'<br>'; //平均值
-		echo $list->sum('goods_price').'<br>'; //和
-	}
-	/**
-	 * 添加数据
-	 */
-	public function addData()
-	{
-		// $data = array(
-		// 	'goods_name'=>'手机',
-		// 	'goods_price'=>2300
-		// );
-		// //如果主键是自动增长,则返回自动增长的编号,否则返回受影响的记录数,如果SQL语句有错误,则返回false
-		// echo M('goods')->add($data);
-		
+	public function add()
+	{   
+		/*方法一:
+		if (IS_POST) {
+			$data['goods_name'] = $_POST['goods_name'];//商品名称
+			$data['goods_category_id'] = $_POST['goods_category_id'];//商品分类
+			$data['goods_price'] = $_POST['goods_price'];//商品价格
+			$data['goods_introduce'] = $_POST['goods_introduce'];//商品描述
+			$data['goods_create_time'] = time();
+
+			$msg = '添加失败';
+			if (M('goods')->add($data)) {
+				$msg = '添加成功';
+			}
+
+			$this->redirect('showlist',array(),3,$msg);
+		}
+		*/
+		// 方法二:
+		/*
+			create的作用:
+			1. 将表单元素的值和数据库中的字段一一匹配
+			2. 将数据库中没有的字段在数组中去除
+			success() 和 error() 是thinkPHP自带的执行成功和失败的方法,可以用此方法来实现跳转
+		 */
+		/*
 		$goods = M('goods');
-		$goods->goods_name='电视';
-		$goods->goods_price='20000';
-		echo $goods->add(); //返回值和上面是一样的
-	}
-	/**
-	 * 数据修改
-	 * @return [type] [description]
-	 */
-	public function changeData()
-	{
-		$data =array(
-			'goods_name'=>'手机22',
-			'goods_price'=>1000,
-			'goods_id'=>'9'
-		);
+		if (IS_POST) {
+			$data = $goods->create();
+			if ($goods->add($data)) {
+				$this->success('添加成功','showlist','3');	
+			}else{
+				$this->error('添加失败');
+			}
+		}
+		 */
+		//方法三:
+		/*
+		I() 函数
+		是用来获取 get post session cookie等等的数据
+		语法 I('变量的类型',变量名称,[默认值],[过滤方法])
+		变量的类型 Get(获取get提交的参数) Post(获取post提交的参数) param(自动判断是get还是post) request(获取request提交的数据) Session(获取会话的数据) Cookie(获取cookie数据) server(类似于$_SERVER[]) globals 获取$GLOBALS参数 path(获取pathinfo模式的url参数)
+		 */
+		if (IS_POST) {
+			if (M('goods')->add(I('post.'))) {
+				$this->success('添加成功','showlist','3');
+			}else{
+				$this->error('添加失败');
+			}
+		}
+		$category=M('category')->select();
+		$this->assign('category',$category);
 
-		echo M('goods')->save($data);
+		$this->display();
 	}
-	/**
-	 * 使用SQL语句进行访问
-	 * @return [type] [description]
-	 */
-	public function querySteate()
+
+	public function update()
 	{
-		# code...
-		# 查询 用query
-		$data = M()->query('select *from tab_goods');
-		var_dump($data);
-		#增删改 用execute
-		$data =M()->execute('delete *form tab_goods where goods_id=8');
+		$this->display()  ;
 	}
+
+	public function delete()
+	{
+		$this->display();
+	}
+
 }
 
 
