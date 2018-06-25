@@ -38,9 +38,9 @@ class GoodsController extends Controller
 				$msg = '添加成功';
 			}
 
-			$this->redirect('showlist',array(),3,$msg);
+			$this->redirect('showlist',array(),3,$msg); //跳转
 		}
-		*/
+		
 		// 方法二:
 		/*
 			create的作用:
@@ -78,15 +78,57 @@ class GoodsController extends Controller
 
 		$this->display();
 	}
-
-	public function update()
+	/**
+	 * @Author   Jess.Wang
+	 * @DateTime 2018-06-25
+	 * @describe 修改商品
+	 * @version  [version]
+	 * @return   [return]
+	 * @param    string     $goods_id 商品id
+	 * @return   [type]               [description]
+	 */
+	public function update($goods_id='')
 	{
-		$this->display()  ;
-	}
+		if (IS_POST) {
+			$goods = M('goods');
+			$data = $goods->create();
 
-	public function delete()
-	{
+			$data['goods_create_time'] = time();
+			if ($goods->save($data)) {
+				/*
+				U方法: 用来生成URL地址,配合URL_MODEL => 0 配置来使用,配置的值不同,配置的URL地址就不一样
+				 */
+				$this->success('修改成功',U('showlist'),3);
+			}else{
+				$this->error('修改失败');
+			}
+			exit;
+		}
+		$category=M('category')->select();
+
+		$data = M('goods')->find($goods_id);
+
+		$this->assign('category',$category);
+
+		$this->assign('data',$data);
+
 		$this->display();
+	}
+	/**
+	 * @Author   Jess.Wang
+	 * @DateTime 2018-06-25
+	 * @describe 删除
+	 * @version  [version]
+	 * @return   [return]
+	 * @return   [type]     [description]
+	 */
+	public function del($goods_id)
+	{
+		if (M('goods')->delete($goods_id)) {
+			$this->success('删除成功',U('showlist',3));
+		}else{
+			$this->error('删除失败',U('showlist'),3);
+		}
 	}
 
 }

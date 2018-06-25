@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <title>修改商品</title>
@@ -19,30 +19,26 @@
         <div></div>
 
         <div style="font-size: 13px;margin: 10px 5px">
-            <form action="__SELF__" method="post" enctype="multipart/form-data">
+            <form action="/index.php/Admin/Goods/update/goods_id/1" method="post" enctype="multipart/form-data">
             <table border="1" width="100%" class="table_a">
                 <tr>
                     <td>商品名称</td>
-                    <td><input type="text" name="goods_name" value="{$data.goods_name}" /></td>
+                    <td><input type="text" name="goods_name" value="<?php echo ($data["goods_name"]); ?>" /></td>
                 </tr>
                 <tr>
                     <td>商品分类</td>
                     <td>
                         <select name="goods_category_id">
                             <option value="0">请选择</option>
-                            <foreach name='category' item='vo'>
-                                <if condition="$data['goods_category_id'] eq $vo['cat_id']">
-                                    <option value="{$vo.cat_id}" selected="selected">{$vo.cat_name}</option>
-                                <else />
-                                    <option value="{$vo.cat_id}">{$vo.cat_name}</option>
-                                </if>
-                            </foreach>
+                            <?php if(is_array($category)): foreach($category as $key=>$vo): if($data['goods_category_id'] == $vo['cat_id']): ?><option value="<?php echo ($vo["cat_id"]); ?>" selected="selected"><?php echo ($vo["cat_name"]); ?></option>
+                                <?php else: ?>
+                                    <option value="<?php echo ($vo["cat_id"]); ?>"><?php echo ($vo["cat_name"]); ?></option><?php endif; endforeach; endif; ?>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td>商品价格</td>
-                    <td><input type="text" name="goods_price" value="{$data.goods_price}" /></td>
+                    <td><input type="text" name="goods_price" value="<?php echo ($data["goods_price"]); ?>" /></td>
                 </tr>
                 <tr>
                     <td>商品图片</td>
@@ -51,10 +47,10 @@
                 <tr>
                     <td>商品详细描述</td>
                     <td>
-                        <textarea name="f_goods_introduce">{$data.goods_introduce}</textarea>
+                        <textarea name="f_goods_introduce"><?php echo ($data["goods_introduce"]); ?></textarea>
                     </td>
                 </tr>
-                <input type="hidden" name="goods_id" value="{$data.goods_id}" />
+                <input type="hidden" name="goods_id" value="<?php echo ($data["goods_id"]); ?>" />
                 <tr>
                     <td colspan="2" align="center">
                         <input type="submit" value="修改">

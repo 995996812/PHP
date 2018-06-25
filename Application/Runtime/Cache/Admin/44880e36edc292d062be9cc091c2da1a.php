@@ -54,8 +54,8 @@
                         <td><img src="/Application/Admin/Public/img/20121018-174034-97960.jpg" height="40" width="40"></td>
                         <td><?php echo ($vo["goods_brand_id"]); ?></td>
                         <td><?php echo ($vo["goods_create_time"]); ?></td>
-                        <td><a href="#">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
+                        <td><a href="/index.php/Admin/Goods/update/goods_id/<?php echo ($vo["goods_id"]); ?>">修改</a></td>
+                        <td><a href="/index.php/Admin/Goods/del/goods_id/<?php echo ($vo["goods_id"]); ?>" onclick="delete_product(1)">删除</a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     <tr>
                         <td colspan="20" style="text-align: center;">
