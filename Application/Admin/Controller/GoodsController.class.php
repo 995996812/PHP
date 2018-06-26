@@ -25,8 +25,8 @@ class GoodsController extends Controller
 	 */
 	public function add()
 	{   
-		/*方法一:
-		if (IS_POST) {
+		//方法一:
+		/*if (IS_POST) {
 			$data['goods_name'] = $_POST['goods_name'];//商品名称
 			$data['goods_category_id'] = $_POST['goods_category_id'];//商品分类
 			$data['goods_price'] = $_POST['goods_price'];//商品价格
@@ -39,7 +39,28 @@ class GoodsController extends Controller
 			}
 
 			$this->redirect('showlist',array(),3,$msg); //跳转
-		}
+		}*/
+		 //上传图片:
+		 $goods = M('goods');
+		 if (IS_POST) {
+		 	
+		 	if ($_FILES['goods_image']['error'] == 0) {
+		 		$upload = new \Think\Upload();
+		 		$upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
+		 		$upload->rootPath  =     './Application/Public/uploads/'; // 设置附件上传根目录
+		 		$info   =   $upload->uploadOne($_FILES['goods_image']);
+    			if(!$info) {// 上传错误提示错误信息
+        			$this->error($upload->getError());
+    			}else{// 上传成功 获取上传文件信息
+         			echo $info['savepath'].$info['savename'];
+    			}
+		 	}
+		 	
+		 	if ($data = $goods->create()) {
+
+		 	}
+		 }
+
 		
 		// 方法二:
 		/*
@@ -66,17 +87,18 @@ class GoodsController extends Controller
 		语法 I('变量的类型',变量名称,[默认值],[过滤方法])
 		变量的类型 Get(获取get提交的参数) Post(获取post提交的参数) param(自动判断是get还是post) request(获取request提交的数据) Session(获取会话的数据) Cookie(获取cookie数据) server(类似于$_SERVER[]) globals 获取$GLOBALS参数 path(获取pathinfo模式的url参数)
 		 */
-		if (IS_POST) {
-			if (M('goods')->add(I('post.'))) {
-				$this->success('添加成功','showlist','3');
-			}else{
-				$this->error('添加失败');
-			}
-		}
+		// if (IS_POST) {
+		// 	if (M('goods')->add(I('post.'))) {
+		// 		// $this->success('添加成功','showlist','3');
+		// 	}else{
+		// 		// $this->error('添加失败');
+		// 	}
+		// }
 		$category=M('category')->select();
 		$this->assign('category',$category);
-
 		$this->display();
+
+
 	}
 	/**
 	 * @Author   Jess.Wang

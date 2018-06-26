@@ -24,12 +24,17 @@ class LoginController extends Controller
 			 */
 			// 临时的固定写法
 			$obj =  I('post.captcha','','trim');
-			var_dump($obj);
 			if ($obj == "1234") {
-				echo "登录成功";
-				$this->redirect('Manager/index');
+				$data['mg_name'] = I('post.admin_user');
+				$data['mg_pwd'] = I('post.admin_pwd');
+				$row = M('manager')->where($data)->find();
+				if ($row) {
+					$this->redirect('Manager/index');
+				}else{
+					$this->error('用户名或密码错误',U('login'),'4');
+				}
+				
 			}else{
-				echo "登录失败";
 				$this->error('验证码错误',U('login'),'4');
 			}
 

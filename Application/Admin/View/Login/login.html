@@ -29,7 +29,7 @@
                                     <ul>
                                         <li class="user_main_text">密&nbsp;&nbsp;&nbsp;&nbsp;码： </li>
                                         <li class="user_main_input">
-                                            <input class="TxtPasswordCssClass" id="admin_psd" name="admin_psd" type="password">
+                                            <input class="TxtPasswordCssClass" id="admin_pwd" name="admin_pwd" type="password">
                                         </li>
                                     </ul>
                                     <ul>
