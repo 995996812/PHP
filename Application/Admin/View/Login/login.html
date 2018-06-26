@@ -17,7 +17,7 @@
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="__MODULE__/Manager/index" method="post">
+                    <form action="__SELF__" method="post">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -36,7 +36,7 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="/Application/Admin/Public/img/admin.png"  alt="" />
+                                            <img src="__URL__/verifyImg"  onclick="this.src='__URL__/verifyImg'+Math.random()" alt="" />
                                         </li>
                                     </ul>
                                 </div>

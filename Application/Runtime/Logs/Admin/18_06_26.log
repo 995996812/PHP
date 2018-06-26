@@ -1,0 +1,312 @@
+[ 2018-06-26T10:12:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:12:33+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/log
+ERR: 非法操作:log
+
+[ 2018-06-26T10:13:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:33+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:33+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:33+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:16:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:25:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: syntax error, unexpected '$config' (T_VARIABLE)
+
+[ 2018-06-26T10:25:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Admin\Controller\ob_chean()
+
+[ 2018-06-26T10:26:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T10:26:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:27:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: syntax error, unexpected 'http' (T_STRING)
+
+[ 2018-06-26T14:31:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: syntax error, unexpected 'http' (T_STRING)
+
+[ 2018-06-26T14:31:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: syntax error, unexpected 'http' (T_STRING)
+
+[ 2018-06-26T14:31:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: syntax error, unexpected 'http' (T_STRING)
+
+[ 2018-06-26T14:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:31:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:38:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:38:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T14:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T14:50:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:51:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:54:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:54:44+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:58:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:58:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:58:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:58:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T14:59:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:01:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:01:27+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+ERR: Call to a member function check() on integer
+
+[ 2018-06-26T15:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:01:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:02:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:03:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-26T15:04:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:04:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-26T15:05:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
