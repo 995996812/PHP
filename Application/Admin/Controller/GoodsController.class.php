@@ -9,10 +9,30 @@ class GoodsController extends Controller
 {
 	public function showlist()
 	{
-	
-		$list=M('goods')->select();
+		//数据分页
+		$model = M('goods'); //获取数据
+		$recordcount = $model->count(); //总记录数
+		$page = new \Think\Page($recordcount,5); //$recordcount 为总数据条数  10位每页显示的数据条数
 		
+		//基础自定义分页样式
+		/*$page->lastSuffix = false;
+		$page->rollPage = 3;
+		$page->setConfig('prev','【上一页】');
+		$page->setConfig('next','【下一页】');
+		$page->setConfig('first','【首页】');
+		$page->setConfig('last','【末页】');*/
+		//完全自定义分页样式
+		$page->setConfig('theme','共 %TOTAL_ROW% 条记录,当前是%NOW_PAGE%/%TOTAL_PAGE% %FIRST% %UP_PAGE% %DOWN_PAGE% %END%');
+		$page->setConfig('prev','【上一页】');
+		$page->setConfig('next','【下一页】');
+		// $list=M('goods')->select();
+		$startno = $page->firstRow; //起始行数
+		$pagesize = $page->listRows; //显示的数据条数
+		$list = $model->limit($startno,$pagesize)->select();
+		$pagestr = $page->show(); //分页指示器显示
+
 		$this->assign('list',$list);
+		$this->assign('pagestr',$pagestr); 
 		$this->display();
 
 	}
@@ -61,7 +81,7 @@ class GoodsController extends Controller
          				$big_image = $upload->rootPath.$data['goods_image'];//查找文件路径
          				$img->open($big_image);
          				//2.生成缩略图
-         				$img->thumb(100,150);
+         				$img->thumb(100,150,2); //等比生成缩略图
          				//3.保存
          				$samall_img = $upload->rootPath.$info['savepath'].'small_'.$info['savename'];
          				$img->save($samall_img);

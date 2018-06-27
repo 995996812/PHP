@@ -59,7 +59,7 @@
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     <tr>
                         <td colspan="20" style="text-align: center;">
-                            [1]
+                            <?php echo ($pagestr); ?>
                         </td>
                     </tr>
                 </tbody>
