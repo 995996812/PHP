@@ -43,20 +43,26 @@ class GoodsController extends Controller
 		 //上传图片:
 		 $goods = M('goods');
 		 if (IS_POST) {
-		 	
-		 	if ($_FILES['goods_image']['error'] == 0) {
-		 		$upload = new \Think\Upload();
-		 		$upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
-		 		$upload->rootPath  =     './Application/Public/uploads/'; // 设置附件上传根目录
-		 		$info   =   $upload->uploadOne($_FILES['goods_image']);
-    			if(!$info) {// 上传错误提示错误信息
-        			$this->error($upload->getError());
-    			}else{// 上传成功 获取上传文件信息
-         			echo $info['savepath'].$info['savename'];
-    			}
-		 	}
-		 	
 		 	if ($data = $goods->create()) {
+		 		if ($_FILES['goods_image']['error'] == 0) {
+		 			$upload = new \Think\Upload();
+		 			$upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
+		 			$upload->rootPath  =     './Application/Public/uploads/'; // 设置附件上传根目录
+		 			$info   =   $upload->uploadOne($_FILES['goods_image']);
+
+    				if(!$info) {// 上传错误提示错误信息
+        				$this->error($upload->getError());
+    				}else{// 上传成功 获取上传文件信息  保存到数据库
+         				$big = $info['savepath'].$info['savename'];
+         				$data['goods_image'] = $info['savepath'].$info['savename'];
+         				$data['goods_create_time'] = time();
+    				}
+		 		}
+		 		if ($goods->add($data)) {
+		 			$this->success('添加成功','showlist','3');
+		 		}else{
+		 			$this->error('添加失败');
+		 		}
 
 		 	}
 		 }
@@ -98,7 +104,6 @@ class GoodsController extends Controller
 		$this->assign('category',$category);
 		$this->display();
 
-
 	}
 	/**
 	 * @Author   Jess.Wang
@@ -114,7 +119,6 @@ class GoodsController extends Controller
 		if (IS_POST) {
 			$goods = M('goods');
 			$data = $goods->create();
-
 			$data['goods_create_time'] = time();
 			if ($goods->save($data)) {
 				/*
