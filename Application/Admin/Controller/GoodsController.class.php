@@ -55,6 +55,17 @@ class GoodsController extends Controller
     				}else{// 上传成功 获取上传文件信息  保存到数据库
          				$big = $info['savepath'].$info['savename'];
          				$data['goods_image'] = $info['savepath'].$info['savename'];
+         				//生成缩略图
+         				$img = new \Think\Image();
+         				//1.打开图片
+         				$big_image = $upload->rootPath.$data['goods_image'];//查找文件路径
+         				$img->open($big_image);
+         				//2.生成缩略图
+         				$img->thumb(100,150);
+         				//3.保存
+         				$samall_img = $upload->rootPath.$info['savepath'].'small_'.$info['savename'];
+         				$img->save($samall_img);
+         				$data['goods_small_image'] = $info['savepath'].'small_'.$info['savename'];
          				$data['goods_create_time'] = time();
     				}
 		 		}
@@ -63,7 +74,6 @@ class GoodsController extends Controller
 		 		}else{
 		 			$this->error('添加失败');
 		 		}
-
 		 	}
 		 }
 
