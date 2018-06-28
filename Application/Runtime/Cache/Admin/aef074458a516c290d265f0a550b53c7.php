@@ -41,11 +41,6 @@
                     	<td><?php echo ($vo["auth_level"]); ?></td>
                     	<td><a href="/index.php/Admin/Authority/updateAuth/auth_id/<?php echo ($vo['auth_id']); ?>">修改</a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                    <tr>
-                        <td colspan="20" style="text-align: center;">
-                            <?php echo ($pagestr); ?>
-                        </td>
-                    </tr>
                 </tbody>
             </table>
         </div>

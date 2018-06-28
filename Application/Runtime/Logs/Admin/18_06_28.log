@@ -618,3 +618,60 @@ ERR: 非法操作:css
 [ 2018-06-28T18:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
 ERR: 非法操作:css
 
+[ 2018-06-28T18:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:54:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:54:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:55:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-28T18:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:58:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:58:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T19:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T19:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T19:07:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T19:07:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+

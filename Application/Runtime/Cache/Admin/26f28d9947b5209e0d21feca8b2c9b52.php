@@ -5,7 +5,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<form action="">
+	<form name="form1" method="post" action="/index.php/Admin/Authority/updateAuth/auth_id/5">
 		<table width="400" border="1" align="center">
 			<tr>
 				<th colspan="2">修改权限</th>
