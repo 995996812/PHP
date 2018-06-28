@@ -504,3 +504,117 @@ ERR: 非法操作:css
 [ 2018-06-28T17:46:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
 ERR: 非法操作:css
 
+[ 2018-06-28T17:56:58+08:00 ] 127.0.0.1 /index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2018-06-28T18:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Authority/updateAuth/auth_id/$v['auth_id']
+ERR: 非法操作:updateAuth
+
+[ 2018-06-28T18:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:15:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:15:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:17:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:17:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:21:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:21:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:22:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:22:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:22:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:22:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:29:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:29:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:29:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:29:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:30:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:30:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-28T18:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+

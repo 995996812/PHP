@@ -14,6 +14,10 @@ function getInfo()
 }
 
 getInfo();
+
+
 HaiDian\getInfo();
+
+
 \China\Beijing\HaiDian\getInfo();
  ?>

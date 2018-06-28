@@ -29,7 +29,7 @@ class LoginController extends Controller
 				$data['mg_pwd'] = I('post.admin_pwd');
 				$row = M('manager')->where($data)->find();
 				if ($row) {//登录成功(不同角色的管理员显示不同的权限,把用户id保存到会话中)
-					session('mg_id',$row['mg_id']);
+					session('mg_id',$row['mg_id']); 
 					$this->redirect('Manager/index');
 				}else{
 					$this->error('用户名或密码错误',U('login'),'4');
