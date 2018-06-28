@@ -187,6 +187,12 @@ class GoodsController extends Controller
 		}
 	}
 
+	public function send()
+	{
+		$obj = new \Components\EmailTool;
+		$obj->send();
+	}
+
 }
 
 

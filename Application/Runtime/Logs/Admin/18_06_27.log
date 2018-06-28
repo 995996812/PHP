@@ -145,3 +145,9 @@ ERR: 非法操作:css
 [ 2018-06-27T12:09:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
 ERR: 非法操作:css
 
+[ 2018-06-27T12:15:49+08:00 ] 127.0.0.1 /index.php/Admin/goods/send
+ERR: syntax error, unexpected '$obj' (T_VARIABLE)
+
+[ 2018-06-27T12:15:54+08:00 ] 127.0.0.1 /index.php/Admin/goods/send
+ERR: Class 'Compoents\EmailTool' not found
+

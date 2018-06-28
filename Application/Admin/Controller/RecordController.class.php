@@ -7,6 +7,7 @@ use Think\Controller;
  */
 class RecordController extends Controller
 {
+
 	public function index()
 	{
 		//1.查询一条数据
