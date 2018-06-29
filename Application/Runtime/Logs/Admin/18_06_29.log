@@ -9811,3 +9811,189 @@ ERR: 非法操作:css
 [ 2018-06-29T14:44:11+08:00 ] 127.0.0.1 /index.php/Admin/Administrator/showlist
 ERR: 无法加载控制器:Administrator
 
+[ 2018-06-29T14:47:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-29T14:47:10+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2018-06-29T14:47:11+08:00 ] 127.0.0.1 /index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2018-06-29T14:47:12+08:00 ] 127.0.0.1 /index.php/Admin/Order/print
+ERR: 无法加载控制器:Order
+
+[ 2018-06-29T14:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brand
+ERR: 非法操作:brand
+
+[ 2018-06-29T14:47:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/css/mine.css
+ERR: 非法操作:css
+
+[ 2018-06-29T17:29:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-29T17:29:13+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:29:20+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:29:20+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:31:37+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:16+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:54+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:54+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:54+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:55+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:33:55+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:22+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:23+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:23+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:23+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:27+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:27+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:27+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:27+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:27+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:28+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:29+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:34:29+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:35:17+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:15+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:16+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:41+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:41+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:42+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:39:42+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:42:51+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Admin
+
+[ 2018-06-29T17:42:52+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Admin
+
+[ 2018-06-29T17:42:56+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:42:57+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+
+[ 2018-06-29T17:43:01+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:43:07+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:43:52+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:43:52+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:43:52+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:16+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:16+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:16+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:17+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:17+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:17+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:17+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:17+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:18+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:18+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:18+08:00 ] 127.0.0.1 /index.php/Admin
+ERR: 无法加载控制器:Index
+
+[ 2018-06-29T17:45:20+08:00 ] 127.0.0.1 /index.php/Admin/show
+ERR: 无法加载控制器:Show
+

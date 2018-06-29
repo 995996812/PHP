@@ -1,5 +1,6 @@
 <?php
 return array(
+
 	//'配置项'=>'配置值'
 	'SHOW_PAGE_TRACE' => true, //显示页面信息,可以进行调试
 	//连接数据库,做如下配置即可连接
@@ -11,4 +12,5 @@ return array(
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  'tab_',    // 数据库表前缀
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
+
 );

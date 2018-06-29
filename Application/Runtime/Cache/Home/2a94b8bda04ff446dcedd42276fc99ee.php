@@ -21,7 +21,7 @@
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
                         <a href="#"> 登录</a>
-                        <a href="#">注册</a>
+                        <a href="/home/index/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">
