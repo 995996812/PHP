@@ -31,3 +31,15 @@ ERR: 非法操作:showlist
 [ 2018-06-29T17:54:19+08:00 ] 127.0.0.1 /index.php/show
 ERR: 非法操作:showlist
 
+[ 2018-06-29T18:03:00+08:00 ] 127.0.0.1 /index.php/show
+ERR: 非法操作:showlist
+
+[ 2018-06-29T18:03:01+08:00 ] 127.0.0.1 /index.php/show
+ERR: 非法操作:showlist
+
+[ 2018-06-29T18:03:55+08:00 ] 127.0.0.1 /index.php/show
+ERR: 非法操作:showlist
+
+[ 2018-06-29T18:04:02+08:00 ] 127.0.0.1 /show
+ERR: 非法操作:showlist
+

@@ -15,7 +15,7 @@
             <span>
                 <span style="float: left;">当前位置是：商品管理-》商品列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="/index.php/Admin/Goods/add">【添加商品】</a>
+                    <a style="text-decoration: none;" href="/Admin/Goods/add">【添加商品】</a>
                 </span>
             </span>
         </div>
@@ -54,8 +54,8 @@
                         <td><img src="/Application/Admin/Public/img/20121018-174034-97960.jpg" height="40" width="40"></td>
                         <td><?php echo ($vo["goods_brand_id"]); ?></td>
                         <td><?php echo ($vo["goods_create_time"]); ?></td>
-                        <td><a href="/index.php/Admin/Goods/update/goods_id/<?php echo ($vo["goods_id"]); ?>">修改</a></td>
-                        <td><a href="/index.php/Admin/Goods/del/goods_id/<?php echo ($vo["goods_id"]); ?>" onclick="delete_product(1)">删除</a></td>
+                        <td><a href="/Admin/Goods/update/goods_id/<?php echo ($vo["goods_id"]); ?>">修改</a></td>
+                        <td><a href="/Admin/Goods/del/goods_id/<?php echo ($vo["goods_id"]); ?>" onclick="delete_product(1)">删除</a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     <tr>
                         <td colspan="20" style="text-align: center;">
