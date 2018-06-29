@@ -1,8 +1,8 @@
 <?php 
 namespace Admin\Controller;
-use Think\Controller;
+// use Think\Controller;
 
-class RoleController extends Controller
+class RoleController extends \Components\AdminController
 {
 	public function showlist()
 	{

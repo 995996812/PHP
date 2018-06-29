@@ -1,0 +1,66 @@
+[ 2018-06-29T10:24:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T10:24:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:08:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:08:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:09:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:09:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:09:38+08:00 ] 127.0.0.1 /index.php/Admin/Authority/addAuth
+ERR: Call to a member function find() on null
+
+[ 2018-06-29T11:09:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:09:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:10:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:10:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:19:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:19:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:27:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/verifyImg
+ERR: Call to undefined function Think\imagettftext()
+
+[ 2018-06-29T11:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:28:38+08:00 ] 127.0.0.1 /index.php/Admin/Administrator/showlist
+ERR: 无法加载控制器:Administrator
+
+[ 2018-06-29T11:29:01+08:00 ] 127.0.0.1 /index.php/Admin/Administrator/showlist
+ERR: 无法加载控制器:Administrator
+
+[ 2018-06-29T11:29:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:29:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/admin.css
+ERR: 非法操作:css
+
+[ 2018-06-29T11:29:05+08:00 ] 127.0.0.1 /index.php/Admin/Administrator/showlist
+ERR: 无法加载控制器:Administrator
+
+[ 2018-06-29T11:29:09+08:00 ] 127.0.0.1 /index.php/Admin//
+ERR: 无法加载控制器:Index
+

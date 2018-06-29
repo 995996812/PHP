@@ -5,7 +5,7 @@ use Think\Controller;
  * 
  */
 
-class LoginController extends Controller
+class LoginController extends \Components\AdminController
 {
 	
 	public function login()

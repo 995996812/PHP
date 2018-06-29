@@ -15,7 +15,7 @@
             <span>
                 <span style="float: left;">当前位置是：权限管理-》权限列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="/index.php/Admin/Authority/add">【添加权限】</a>
+                    <a style="text-decoration: none;" href="/index.php/Admin/Authority/addAuth">【添加权限】</a>
                 </span>
             </span>
         </div>

@@ -5,14 +5,14 @@
 	<title>Document</title>
 </head>
 <body>
-	<form name="form1" method="post" action="/index.php/Admin/Authority/updateAuth/auth_id/13">
+	<form name="form1" method="post" action="/index.php/Admin/Authority/addAuth">
 		<table width="400" border="1" align="center">
 			<tr>
-				<th colspan="2">修改权限</th>
+				<th colspan="2">添加权限</th>
 			</tr>
 			<tr>
 				<td>权限名称: </td>
-				<td><input type="text" name="auth_name" id="auth_name" value="<?php echo ($current_auth["auth_name"]); ?>"></td>
+				<td><input type="text" name="auth_name" id="auth_name"></td>
 			</tr>
 			<tr>
 				<td>选中父级: </td>
