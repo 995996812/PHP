@@ -96,7 +96,6 @@ class GoodsController extends Controller
 		 		}
 		 	}
 		 }
-
 		
 		// 方法二:
 		/*

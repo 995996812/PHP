@@ -95,16 +95,39 @@
                         <div class="logtitle3"></div>
                         <form id="yw0" action="__SELF__" method="post">                <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
                                 <tbody>
-                                    <tr>
-                                        <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名 
-                                        <span class="required">*</span></label>
-                                        </td>
+                                    <!--********  开始  ********-->
+<script type="text/javascript">
+    var urlpath = "__CONTROLLER__";
+    function checkname() {
+        //ajax无刷新方式校验用户名
+        //1. 获取被校验的用户名信息
+        var nm = document.getElementById('name').value;
+        //2. ajax抓取用户名传递给服务器校验
+        var xhr = new XMLHttpRequest();
 
-                                        <td style="width:87%;">
-                                            <input class="inputBg" size="25" name="name" id="name" type="text" value="" />                  
-                                            <span style="color:red;">用户名已经存在</span>
-                                        </td>
-                                    </tr>
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4) {
+                // alert(xhr.responseText);
+                document.getElementById('namecheck').innerHTML = xhr.responseText;
+            }
+        }
+        //tp框架使用模式:分组/控制器/操作方法
+        xhr.open('get', urlpath+'/checkNM/name/'+nm);
+        xhr.send(null);
+    }
+
+</script>
+<tr>
+    <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名 
+        <span class="required">*</span></label>
+    </td>
+
+    <td style="width:87%;">
+        <input class="inputBg" size="25" name="name" id="name" type="text" value="" onblur="checkname()" />                  
+        <span id="namecheck"></span>
+    </td>
+</tr>
+                                    <!--*******  结束  ********-->
                                     <tr>
                                         <td align="right">
                                             <label for="User_password" class="required">密码 <span class="required">*</span></label>
